@@ -37,7 +37,7 @@
 
 ### It will create a folder inside the apps dir, and another three folders called controllers, models, routes, and three files also, and then you have to modify 2 fills 'settings/database.go' and 'server.go'
 
-## In 'settings/database.go' You have to input todo models and add model to the models map
+## In 'settings/database.go' You have to input todo models and add the model to the models map
 
 `todoModel "app/apps/todo/models"`
 
