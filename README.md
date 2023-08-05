@@ -2,7 +2,7 @@
 
 ### Instruction for setup project and creating your first app
 
-### 1. First Clone Project
+### 1. First, clone the project
 
 `git clone https://github.com/codewithrafiq/golang-fiber-realworld-boilerplate-project.git`
 
@@ -10,7 +10,7 @@
 
 `cd /golang-fiber-realworld-boilerplate-project`
 
-### 3. Creta your First app
+### 3. Creta your first app
 
 `./createApp`
 
@@ -91,7 +91,7 @@ func ConnectDb() {
 
 ## We have to modify another file
 
-## IN 'server.go' file input todoRoutes and add todRoutes to main
+## In 'server.go' file input todoRoutes and add todRoutes to main
 
 `todoRoutes "app/apps/todo/routes"`
 
@@ -123,7 +123,7 @@ func main() {
 }
 ```
 
-### CRUD application is ready for todo. Now if you see 'apps/todo/routes/todoRoutes.go' You can see there is Five API endpoint already created
+### CRUD application is ready for todo. Now if you see 'apps/todo/routes/todoRoutes.go' You can see there is five API endpoint already created
 
 ### Ex:
 
@@ -150,6 +150,6 @@ func TodoRoutes(app *fiber.App) {
 
 ### Every time you create an app, you must modify those two files like this.
 
-## New fill Free to Create apps you're needed
+## New fill free to create apps you're needed
 
 [CodeWithRafiq](https://www.linkedin.com/in/codewithrafiq)
