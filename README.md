@@ -10,7 +10,7 @@
 
 `cd /golang-fiber-realworld-boilerplate-project`
 
-### 3. Creata your first app
+### 3. Create your first app
 
 `./createApp`
 
@@ -37,7 +37,7 @@
 
 ### It will create a folder inside the apps dir, and another three folders called controllers, models, routes, and three files also, and then you have to modify 2 fills 'settings/database.go' and 'server.go'
 
-## In 'settings/database.go' You have to input todo models and add the model to the models map
+## In 'settings/database.go' You have to input todo models and add the model to the model's map
 
 `todoModel "app/apps/todo/models"`
 
@@ -91,7 +91,7 @@ func ConnectDb() {
 
 ## We have to modify another file
 
-## In 'server.go' file input todoRoutes and add todRoutes to main
+## In the 'server.go' file input todoRoutes and add todRoutes to the main
 
 `todoRoutes "app/apps/todo/routes"`
 
