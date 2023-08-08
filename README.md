@@ -10,7 +10,7 @@
 
 `cd /golang-fiber-realworld-boilerplate-project`
 
-### 3. Creta your first app
+### 3. Creata your first app
 
 `./createApp`
 
